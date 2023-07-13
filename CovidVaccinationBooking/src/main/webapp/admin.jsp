@@ -12,7 +12,7 @@
 <div class="content">
 <%String user= (String)request.getAttribute("user"); %>
 <h2>Welcome user: <%=user %></h2>
-   <form action="Dosage_details.java">
+   <form action="Dosage_details">
    <input type="hidden" name="user" value="<%=user%>" />
      <input type="submit" value="Get Dosage details">
     </form>
